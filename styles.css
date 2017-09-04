@@ -2,10 +2,33 @@
     box-sizing: border-box;
     padding: 0;
     margin: 0;
+    color: #414042;
+    font-family: 'Open Sans', sans-serif;
+}
+
+div.container-fluid {
+    padding: 0px;
+}
+
+.spacing {
+    padding: 2rem;
 }
 
 h2 {
     text-align: center;
+    font-size: 1rem !important;
+    font-family: 'Roboto Mono', monospace;
+    letter-spacing: 5px;
+    font-weight: bold !important;
+}
+
+h4 {
+    text-align: center;
+    font-weight: lighter;
+}
+
+ul {
+    list-style-type: none;
 }
 
 header {
@@ -22,6 +45,10 @@ header img {
     padding-left: 1rem;
     padding-top: 0.5rem;
     color: #224C65;
+}
+
+.navbar-brand {
+    margin-right: 20rem !important;
 }
 
 .navBar li {
@@ -52,21 +79,29 @@ header img {
     margin-bottom: -1px;
 }
 
-header ul.navBar {
-    text-align: right;
-    list-style-type: none;
-    margin: 1rem;
-}
-
-header ul.navbar li {}
-
 .head-shot img {
     max-width: -webkit-fill-available;
 }
 
-.skills ul {
-    list-style-type: none;
+.resume {
     text-align: center;
+}
+
+.projects img {
+    width: 60%;
+    margin-right: 20%;
+    margin-left: 20%;
+}
+
+.skills {
+    padding: 20px;
+    text-align: center;
+}
+
+.skills ul {
+    width: 60%;
+    margin: 0 auto;
+    list-style-type: none;
 }
 
 .skills ul li {
@@ -75,14 +110,46 @@ header ul.navbar li {}
 
 .skills ul li img {
     max-height: 120px;
-    margin: 40px;
-}
-
-.inspiration ul li {
-    text-align: center;
     margin: 20px;
 }
 
-.resume {
+.inspiration .books {
+    width: 60%;
+    margin: 0 auto;
+}
+
+.inspiration .books .row div {
     text-align: center;
+    margin: 0 auto;
+    padding: 10px
+}
+
+.inspiration .books .row div a img {
+    margin: 10px;
+    max-height: 200px;
+}
+
+.inspiration div.medium {
+    text-align: center;
+    padding: 20px;
+    background: #f4f4f4;
+    border-bottom: 1px solid #d5d5d5;
+}
+
+.hobbies {
+    padding: 20px;
+    text-align: center;
+    margin: 20px 0px;
+}
+
+.hobbies .container {
+    padding: 10px;
+}
+
+.contact {
+    text-align: center;
+}
+
+.contact div.links a {
+    font-size: 3rem;
 }

@@ -3,58 +3,185 @@
 
 <head>
     <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <title>Brandy's Portfolio</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css">
     <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/css/bootstrap.min.css" integrity="sha384-rwoIResjU2yc3z8GV/NPeZWAv56rSmLldC3R/AZzGRnGxQQKnKkoFVhFQhNUwEyJ" crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans|Roboto+Mono" rel="stylesheet">
+    <link rel="icon" href="logo.png">
+
+
 </head>
 
-<body>
-    <header>
-        <img src="" alt="">
-        <ul class="navBar">
+<div class="container-fluid">
 
-            <li><a href="#about">ABOUT</a></li>
-            <li><a href="#inspiration">INSPIRATION</a></li>
-            <li><a href="#skills">SKILLS</a></li>
-            <li><a href="#contact">CONTACT</a></li>
-        </ul>
-    </header>
+    <body>
+        <header>
+            <nav class="navbar navbar-toggleable-md navbar-light bg-faded">
+                <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarToggler" aria-controls="navbarToggler" aria-expanded="false" aria-label="Toggle navigation">
+                    <div class="navbar-toggler-icon"></div>
+                </button>
+                <a class="navbar-brand" href="#">Brandy LaVoy</a>
 
-    <section class="head-shot"><img src="135.jpg" alt="Brandy & Regi on the stairs at city hall"></section>
-    <section>
-        <h2>I am passionate about problem solving</h2>
-    </section>
-    <section class="skills" id="skills">
-        <h2>My skillset includes</h2>
-        <ul>
-            <li><img src="http://inspiredtoeducate.net/inspiredtoeducate/wp-content/uploads/2013/12/js-logo.png" alt="JavaScript Logo"></li>
-            <li><img src="http://www.codingdojo.com/blog/wp-content/uploads/html.png" alt=""></li>
-            <li><img src="http://w3widgets.com/responsive-slider/img/css3.png" alt=""></li>
-            <li><img src="https://donejs.com/static/img/react-logo.png" alt=""></li>
-            <li><img src="http://www.lnwebworks.com/sites/default/files/node.png" alt=""></li>
-            <li><img src="http://precision-software.com/wp-content/uploads/2014/04/jQurery.gif" alt=""></li>
-            <li><img src="http://www.playlogix.com/wp-content/themes/playlogix/images/code-logos/mongodb.png" alt=""></li>
-        </ul>
-    </section>
-    <section id="inspiration" class="inspiration">
-        <h2>I am inspired by</h2>
-        <ul>
-            <li>
+                <div class="collapse navbar-collapse justify-content-center" id="navbarToggler">
+                    <ul class="nav navbar-nav mr-auto mt-2 mt-md-0">
+                        <li class="nav-item">
+                            <a class="nav-link" href="#resume">RESUME</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#skills">SKILLS</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#hobbies">HOBBIES</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#inspiration">INSPIRATION</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#contact">CONTACT</a>
+                        </li>
+                    </ul>
+
+                </div>
+            </nav>
+
+        </header>
+
+        <section class="head-shot"><img src="135.jpg" alt="Brandy & Regi on the stairs at city hall"></section>
+        <div class="spacing"></div>
+        <section>
+            <h2>ABOUT</h2>
+            <h4>I am passionate about problem solving</h4>
+            <h4>I have excellent... </h4>
+            <h4>I am interested in the agile development process</h4>
+        </section>
+        <div class="spacing"></div>
+        <section class="resume" id="resume">
+            <a href="BrandyLaVoyResume.docx.html" download><Button type="button" class="btn btn-outline-info btn-lg">DOWNLOAD RESUME</Button></a>
+        </section>
+        <div class="spacing"></div>
+        <section class="projects">
+            <img src="macbook.png" alt="laptop with project BART open">
+        </section>
+        <div class="spacing"></div>
+        <section class="skills" ID="skills">
+            <h2>MY SKILLSET INCLUDES</h2>
+            <ul>
+                <li>
+                    <a href="https://developer.mozilla.org/en-US/docs/Glossary/JavaScript" target="_blank"><img src="http://inspiredtoeducate.net/inspiredtoeducate/wp-content/uploads/2013/12/js-logo.png" alt="JavaScript Logo"></a>
+                </li>
+                <li>
+                    <a href="https://developer.mozilla.org/en-US/docs/Glossary/HTML" target="_blank"><img src="http://www.codingdojo.com/blog/wp-content/uploads/html.png" alt="HTML logo"></a>
+                </li>
+            </ul>
+            <ul>
+                <li>
+                    <a href="https://developer.mozilla.org/en-US/docs/Web/CSS" target="_blank"><img src="http://w3widgets.com/responsive-slider/img/css3.png" alt="CSS logo"></a>
+                </li>
+                <li>
+                    <a href="https://facebook.github.io/react/" target="_blank"><img src="https://donejs.com/static/img/react-logo.png" alt="React logo"></a>
+                </li>
+                <li>
+                    <a href="https://developer.mozilla.org/en-US/docs/Glossary/Node.js" target="_blank"><img src="http://www.lnwebworks.com/sites/default/files/node.png" alt="Node logo"></a>
+                </li>
+            </ul>
+            <ul>
+                <li>
+                    <a href="https://developer.mozilla.org/en-US/docs/Glossary/jQuery" target="_blank"><img src="http://precision-software.com/wp-content/uploads/2014/04/jQurery.gif" alt="jQuery logo"></a>
+                </li>
+                <li>
+                    <a href="https://www.mongodb.com/what-is-mongodb" target="_blank"><img src="http://www.playlogix.com/wp-content/themes/playlogix/images/code-logos/mongodb.png" alt="MongoDB logo"></a>
+                </li>
+            </ul>
+        </section>
+        <div class="spacing"></div>
+        <section id="inspiration" class="inspiration">
+            <h2>I AM INSPIRED BY</h2>
+            <div class="books container">
+                <div class="row">
+                    <div class="col-lg-4">
+                        <figure>
+                            <a href="https://www.amazon.com/gp/product/B0084HJE0S/ref=oh_aui_d_detailpage_o07_?ie=UTF8&psc=1" target="_blank"><img src="https://images-na.ssl-images-amazon.com/images/I/51rvw49RejL.jpg" alt="JavaScript and HTML5 Now"></a>
+                            <figcaption>This book gave a great overview of upcoming advances in JavaScript</figcaption>
+                        </figure>
+                    </div>
+                    <div class="col-lg-4">
+                        <figure>
+                            <a href="https://www.amazon.com/gp/product/B01BPO17QA/ref=oh_aui_d_detailpage_o09_?ie=UTF8&psc=1" target="_blank"><img src="https://images-na.ssl-images-amazon.com/images/I/51n4QwOMRtL.jpg" alt="JAVASCRIPT: Easy JavaScript Programming For Beginners. "></a>
+                            <figcaption>This book offered some excercises that really helped cement the concepts</figcaption>
+                        </figure>
+                    </div>
+                    <div class="col-lg-4">
+                        <figure>
+                            <a href="https://www.amazon.com/Learning-React-Hands-Maintainable-High-Performing-ebook/dp/B01N5GPFM2/ref=mt_kindle?_encoding=UTF8&me=" target="_blank"><img src="https://images-na.ssl-images-amazon.com/images/I/51MLjNneBZL._SX385_BO1,204,203,200_.jpg" alt="Learning React"></a>
+                            <figcaption>This book of provided a very logical step-by-step introduction to ReactJs</figcaption>
+                        </figure>
+                    </div>
+                </div>
+            </div>
+            <object data="https://medium.freecodecamp.org/what-does-it-take-to-build-a-chatbot-lets-find-out-b4d009ea8cfd" type="text/html"></object>
+            <div class="medium">
+                <h4>What does it take to build a chatbot? Let’s find out.</h4>
                 <a href="https://medium.freecodecamp.org/what-does-it-take-to-build-a-chatbot-lets-find-out-b4d009ea8cfd" target="_blank"><img src="https://cdn-images-1.medium.com/fit/t/800/240/1*7EKSA6aQvAYaT6eoV7zEsw.jpeg" alt=""></a>
-            </li>
-        </ul>
-    </section>
-    <section>
-        <h2>I am interested in the agile development process</h2>
-    </section>
-    <section class="resume">
-        <a href="BrandyLaVoyResume.docx.html" download><Button>Download Resume</Button></a>
-    </section>
-    <section>
-        <h2>Let's Talk</h2>
-    </section>
+
+            </div>
+            <div class="spacing"></div>
+
+            <section class="hobbies" id="hobbies">
+                <h2>HOBBIES</h2>
+                <div class="container">
+                    <div class="row">
+
+                        <div class="col">
+                            <figure>
+                                <img src="Maddy.jpeg" alt="Maddy the dog" class="col">
+                                <figcaption>
+                                    Maddy
+                                </figcaption>
+                            </figure>
+                        </div>
+                        <div class="col">
+                            <figure>
+                                <img src="cody-square.jpg" alt="Cody the dog" class="col">
+                                <figcaption>Cody</figcaption>
+                            </figure>
+                        </div>
+
+                        <div class="col">
+                            <figure>
+                                <img src="familyphoto.jpg" alt="Family picture" class="col">
+                                <figcaption>Friends and Family</figcaption>
+                            </figure>
+                        </div>
+                        <div class="col">
+                            <figure>
+                                <img src="finishline.jpg" alt="Brandy Crossing Finish Line at the Nike Women's Half Marathon" class="col">
+                                <figcaption>Running</figcaption>
+                            </figure>
+                        </div>
 
 
+                    </div>
+                </div>
+            </section>
+            <div class="spacing"></div>
+            <section class="contact" id="contact">
+                <h2>LET'S TALK</h2>
 
-</body>
+                <div>Want to schedule a time using my <a href="https://calendly.com/brandylavoy/15min" target="_blank">Calendly link</a> so we can avoid the back and forth of finding a time?</div>
+                <div class="links">
+                    <a href="https://www.linkedin.com/in/brandylavoy/" target="_blank"><i class="fa fa-linkedin-square" aria-hidden="true"></i>LinkedIn</a>
+                    <a href="https://github.com/brandylavoy" target="_blank"><i class="fa fa-github" aria-hidden="true"></i>GitHub</a>
+                    <a href="mailto:brandylavoy@gmail.com"><i class="fa fa-envelope" aria-hidden="true"></i>Email</a>
+                </div>
+            </section>
+
+            <script src="https://code.jquery.com/jquery-3.1.1.slim.min.js" integrity="sha384-A7FZj7v+d/sdmMqp/nOQwliLvUsJfDHW+k9Omg/a/EheAdgtzNs3hpfag6Ed950n" crossorigin="anonymous"></script>
+            <script src="https://cdnjs.cloudflare.com/ajax/libs/tether/1.4.0/js/tether.min.js" integrity="sha384-DztdAPBWPRXSA/3eYEEUWrWCy7G5KFbe8fFjk5JAIxUYHKkDx6Qin1DkWx51bBrb" crossorigin="anonymous"></script>
+            <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/js/bootstrap.min.js" integrity="sha384-vBWWzlZJ8ea9aCX4pEW3rVHjgjt7zpkNpZk+02D9phzyeVkE+jo0ieGizqPLForn" crossorigin="anonymous"></script>
+
+    </body>
+</div>
 
 </html>
