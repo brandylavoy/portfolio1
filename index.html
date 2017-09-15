@@ -19,12 +19,11 @@
     <div class="container-fluid">
         <header>
             <nav>
-                <img src="logo-name-1.png" alt="Brandy La Voy">
+                <img src="logo-name.png" class="logo" alt="Brandy La Voy">
 
-                <ul class="navBar">
-                    <li> </li>
+                <ul class="navBar hidden-md-down">
                     <li><a href="#resume">RESUME</a></li>
-                    <li><a href="#projects">PROJECTS</a></li>
+                    <li><a href="#projects">PROJECT</a></li>
                     <li><a href="#skills">SKILLS</a></li>
                     <li><a href="#inspiration">INSPIRATION</a></li>
                     <li><a href="#hobbies">HOBBIES</a></li>
@@ -44,9 +43,9 @@
                 </div>
             </div>
         </section>
-        <div class="spacing"></div>
-        <section>
-            <h2>ABOUT</h2>
+        <div class="spacing" id="about"></div>
+        <section class="about">
+            <h2>ABOUT ME</h2>
             <h4>I am passionate about problem solving</h4>
             <h4>I have excellent communication skills</h4>
             <h4>I am interested in the agile development process</h4>
@@ -60,8 +59,11 @@
         </section>
 
         <div class="spacing"></div>
-        <section class="projects">
+        <section class="projects" id="projects">
+            <h2>RECENT PROJECT</h2>
             <a href="https://final-capstone-bart-schedule.herokuapp.com/" target="_blank"><img src="macbook.png" alt="laptop with project BART open"></a>
+            <h6>A full stack project utilzing HTML, CSS, JavaScript, Node.js, jQuery, React.js, MongoDB. </h6>
+            <h6>You can look-up BART train schedules through the Bart.gov API.</h6>
         </section>
         <div class="spacing"></div>
         <section class="skills" ID="skills">
@@ -99,19 +101,19 @@
             <h2>I AM INSPIRED BY</h2>
             <div class="books container">
                 <div class="row">
-                    <div class="col-lg-4">
+                    <div class="col-lg-3">
                         <figure>
                             <a href="https://www.amazon.com/gp/product/B0084HJE0S/ref=oh_aui_d_detailpage_o07_?ie=UTF8&psc=1" target="_blank"><img src="https://images-na.ssl-images-amazon.com/images/I/51rvw49RejL.jpg" alt="JavaScript and HTML5 Now"></a>
                             <figcaption>This book gave a great overview of upcoming advances in JavaScript</figcaption>
                         </figure>
                     </div>
-                    <div class="col-lg-4">
+                    <div class="col-lg-3">
                         <figure>
                             <a href="https://www.amazon.com/gp/product/B01BPO17QA/ref=oh_aui_d_detailpage_o09_?ie=UTF8&psc=1" target="_blank"><img src="https://images-na.ssl-images-amazon.com/images/I/51n4QwOMRtL.jpg" alt="JAVASCRIPT: Easy JavaScript Programming For Beginners. "></a>
                             <figcaption>This book offered some excercises that really helped cement the concepts</figcaption>
                         </figure>
                     </div>
-                    <div class="col-lg-4">
+                    <div class="col-lg-3">
                         <figure>
                             <a href="https://www.amazon.com/Learning-React-Hands-Maintainable-High-Performing-ebook/dp/B01N5GPFM2/ref=mt_kindle?_encoding=UTF8&me=" target="_blank"><img src="https://images-na.ssl-images-amazon.com/images/I/51MLjNneBZL._SX385_BO1,204,203,200_.jpg" alt="Learning React"></a>
                             <figcaption>This book of provided a very logical step-by-step introduction to ReactJs</figcaption>
@@ -119,30 +121,21 @@
                     </div>
                 </div>
             </div>
-
             <div class="spacing"></div>
             <div class="medium">
-                <h2>MEDIUM PUBLICATIONS THAT I FOLLOW</h2>
+                <h2>MEDIUM PUBLICATIONS THAT I LIKE</h2>
                 <div class="row">
-                    <div class="col-6">
 
-                        <a href="https://medium.com/personal-growth" target="_blank">
-                            <h5>13 Things You Should Give Up If You Want To Be Successful
-                            </h5>
-                            <p> ”Somebody once told me the definition of hell...</p>
-                            <img src="medium-13-things.png" alt="">
-                        </a>
-                    </div>
-                    <div class="col-6">
+                    <div class="col-lg-6">
                         <a href="https://medium.freecodecamp.org/how-to-use-reacts-controlled-inputs-for-instant-form-field-validation-b1c7b033527e">
                             <h5>How to use React’s controlled inputs for instant form field validation</h5>
-                            <p>Controlled inputs enable simple things, like disabling the Submit button when some fields are missing or invalid.</p>
+                            <p>Controlled inputs enable simple things, like disabling the Submit button when some fields are missing or invalid...</p>
                             <img src="medium-react.png" alt="">
                         </a>
                     </div>
-                </div>
-                <div class="row">
-                    <div class="col-6">
+
+
+                    <div class="col-lg-6">
                         <a href="https://medium.com/re-write/the-unicorn-workflow-design-to-code-with-atomic-design-principles-and-sketch-8b0fe7d05a37">
                             <h5>
                                 The Unicorn Workflow, Design to Code with Atomic Design Principles and Sketch
@@ -151,12 +144,24 @@
                             <img src="medium-unicorn.png" alt="">
                         </a>
                     </div>
-                    <div class="col-6">
+                </div>
+                <div class="row">
+                    <div class="col-lg-6">
                         <a href="https://medium.freecodecamp.org/grabs-front-end-guide-for-large-teams-484d4033cc41">
                             <h5>Our large team of engineers use this front end development guide</h5>
                             <p>Front end development has never been so complex and exciting as it is today...</p>
-                            <img src="medium-framework.png" alt="">
+                            <img src="medium-framework.png" alt=""></a>
 
+                    </div>
+
+                    <div class="col-lg-6">
+
+                        <a href="https://medium.com/search?q=13%20things%20you%20should" target="_blank">
+                            <h5>13 Things You Should Give Up If You Want To Be Successful
+                            </h5>
+                            <p> ”Somebody once told me the definition of hell...</p>
+                            <img src="medium-13-things.png" alt="">
+                        </a>
                     </div>
                 </div>
             </div>
@@ -166,7 +171,7 @@
             <h2>HOBBIES</h2>
             <div class="container">
                 <div class="row">
-                    <div class="col">
+                    <div class="col-md-3">
                         <figure>
                             <img src="Maddy.jpeg" alt="Maddy the dog" class="col">
                             <figcaption>
@@ -174,19 +179,19 @@
                             </figcaption>
                         </figure>
                     </div>
-                    <div class="col">
+                    <div class="col-md-3">
                         <figure>
                             <img src="cody-square.jpg" alt="Cody the dog" class="col">
                             <figcaption>Cody</figcaption>
                         </figure>
                     </div>
-                    <div class="col">
+                    <div class="col-md-3">
                         <figure>
                             <img src="familyphoto.jpg" alt="Family picture" class="col">
                             <figcaption>Friends and Family</figcaption>
                         </figure>
                     </div>
-                    <div class="col">
+                    <div class="col-md-3">
                         <figure>
                             <img src="finishline.jpg" alt="Brandy Crossing Finish Line at the Nike Women's Half Marathon" class="col">
                             <figcaption>Running</figcaption>
