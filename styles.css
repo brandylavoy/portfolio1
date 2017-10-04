@@ -44,6 +44,11 @@ ul {
     list-style-type: none;
 }
 
+figcaption {
+    text-align: center;
+    margin-top: 1rem;
+}
+
 section .about,
 .resume,
 .projects,
@@ -51,8 +56,8 @@ section .about,
 .inspiration,
 .hobbies,
 .contact {
-    padding-top: 25px;
-    margin-top: -25px;
+    padding-top: 25px !important;
+/*    margin-top: -200px;*/
 }
 
 header {
@@ -170,6 +175,7 @@ header ul.navBar {
 }
 
 .inspiration .books .row {
+    width: auto;
     margin: 0 auto;
 }
 
@@ -181,8 +187,7 @@ header ul.navBar {
 }
 
 .inspiration .books .row div a img {
-    max-height: 250px;
-    margin: 0.5rem;
+    max-height: 175px;
     text-align: center;
 }
 
@@ -234,8 +239,11 @@ header ul.navBar {
     margin-right: 30px;
 }
 
+
 .contact div.links a {
     font-size: 1.5rem;
+    margin-left: 2rem;
+    margin-right: 2rem;
 }
 
 @media only screen and (max-width: 1000px) {
@@ -265,5 +273,8 @@ header ul.navBar {
         margin-left: 2rem;
         margin-right: 2rem;
         margin-top: 20px;
+    }
+    .gap {
+        display: none;
     }
 }
