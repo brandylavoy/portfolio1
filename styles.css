@@ -280,7 +280,7 @@ header ul.navBar {
 }
 
 
-@media only screen and (max-width: 500px) {
+@media only screen and (max-width: 600px) {
 
     .head-shot {
 /*        display: none;*/
