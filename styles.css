@@ -256,12 +256,7 @@ header ul.navBar {
         margin-right: 2rem;
         margin-top: 20px;
     }
-    /*
-    header nav img.logo {
-        clear: left;
-        margin: 0 auto;
-    }
-*/
+
 }
 
 @media only screen and (max-width: 800px) {
@@ -274,7 +269,28 @@ header ul.navBar {
         margin-right: 2rem;
         margin-top: 20px;
     }
+
+    .inspiration div.medium div.row div.col-6 a img{
+        max-width: 80%;
+    }
+
     .gap {
         display: none;
     }
 }
+
+
+@media only screen and (max-width: 400px) {
+
+    .head-shot {
+/*        display: none;*/
+        background: url(vineyard-grapes.jpg) no-repeat 50%;
+
+    }
+
+    .contact div.links a {
+      display: block;
+        padding-bottom: 1rem;
+    }
+}
+
