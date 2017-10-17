@@ -263,6 +263,11 @@ header ul.navBar {
     ul.navbar {
         display: none;
     }
+
+    header img {
+        width: 100%;
+    }
+
     .inspiration div.medium div.row {
         text-align: justify;
         margin-left: 2rem;
