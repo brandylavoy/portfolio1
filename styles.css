@@ -47,6 +47,7 @@ ul {
 figcaption {
     text-align: center;
     margin-top: 1rem;
+    margin-bottom: 1rem;
 }
 
 section .about,
@@ -143,10 +144,34 @@ header ul.navBar {
     padding-right: 1rem;
 }
 
-.projects img {
-    width: 60%;
-    margin-right: 20%;
-    margin-left: 20%;
+.projects h4{
+    font-size: 2rem;
+}
+
+.projects div.mainProject img {
+    width: 80%;
+    display: block;
+    margin: 0 auto;
+
+}
+
+.projects div.moreProjects {
+    display: inline-block;
+    text-align: center;
+
+}
+
+.projects div.moreProjects figure {
+    display: inline-block;
+    width: 40%;
+    margin-top: 2rem;
+    padding-left: 3rem;
+    padding-right: 3rem;
+
+}
+
+.projects div.moreProjects figure a img{
+    width: 100%;
 }
 
 .skills {
@@ -265,7 +290,18 @@ header ul.navBar {
     }
 
     header img {
+        width: 50%;
+    }
+
+    .projects div.moreProjects figure {
+        display: block;
         width: 100%;
+        text-align: center;
+    }
+
+
+    .projects div.moreProjects figure a img{
+        width: 80%;
     }
 
     .inspiration div.medium div.row {
